@@ -1,0 +1,16 @@
+##
+## EPITECH PROJECT, 2024
+## 
+## File description:
+## Idea Files, to contain all ideas, components that may be used,
+## and lot of things like that
+##
+#-------------------------------------
+## Date: 2023-02-08
+## Version: 0.1
+## Description: Login project using .js Framework :  
+## Author: Morgan GUICHARD
+#-------------------------------------
+## [ Languages : .js, .html, .css ]
+## [ .js Frameworks : Node.js with Express ]
+## [ Lib used for Hashing : Crypto ]
