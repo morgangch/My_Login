@@ -9,12 +9,13 @@
 <body>
     <div class="container">
         <div class="center">
+          <form id="loginForm" method="post" action="/login">
             <label for="name">Email or Username:</label> <br>
-            <input type="name" class="USERNAME" id="name" name="name" size="20"/> <br>
+            <input type="text" class="USERNAME" id="name" name="username" size="20"/> <br>
             <label for="password">Password:</label> <br>
             <input type="password" class="PASSWORD" id="password" name="password" required minlength="6" size="20" autocomplete="current-password"/> <br>
-            <input type="submit" value="Submit" class="Login_Submit" formaction=""/>
-            <script src="/scripts.js"></script>
+            <input type="submit" value="Submit" class="Login_Submit"/>
+          </form>
         </div>
     </div>
 </body>

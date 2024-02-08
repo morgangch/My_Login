@@ -7,15 +7,18 @@
   <title>My_Login</title>
 </head>
 <body>
-    <div class="container">
-        <div class="center">
-        <label for="name">Name (5 to 20 characters):</label>
-        <input type="name" id="name" name="name" required minlength="5" maxlength="20" size="10"/>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"/>
-        <label for="password">Password (6+ characters):</label>
-        <input type="password" id="password" name="password" required minlength="6" size="10" autocomplete="new-password"/>
-        <input type="submit" value="Submit" />
-    </class>
+  <div class="container">
+      <div class="center">
+        <form id="loginForm" method="post" action="/signup">
+          <label for="name">Email:</label> <br>
+          <input type="text" class="mail" id="mail" name="mail" size="20"/> <br>
+          <label for="username">Username:</label> <br>
+          <input type="text" class="USERNAME" id="username" name="username" size="20"/> <br>
+          <label for="password">Password:</label> <br>
+          <input type="password" class="PASSWORD" id="password" name="password" required minlength="6" size="20" autocomplete="current-password"/> <br>
+          <input type="submit" value="Submit" class="Signup_Submit"/>
+        </form>
+      </div>
+  </div>
 </body>
 </html>
